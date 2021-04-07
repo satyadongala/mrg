@@ -1,0 +1,8 @@
+com\tc\excel_export\ExcelHelper.class
+com\tc\controller\MrgController.class
+com\tc\service\MrgService.class
+com\tc\model\MrgModel.class
+com\tc\repository\MrgRepository.class
+com\tc\cors_configuration\CorsConfiguration.class
+com\tc\exception\ResourceNotFoundException.class
+com\tc\Mrg.class
