@@ -15,6 +15,8 @@ public class MrgModel {
 	private String name;
 	private String village;
 	private int amount;
+	private string gift;
+
 	@Id
 	@GeneratedValue(strategy=GenerationType.AUTO)
 	@Column(name="ID")
@@ -30,6 +32,13 @@ public class MrgModel {
 	}
 	public void setName(String name) {
 		this.name = name;
+	}
+	@Column(name="GIFT")
+	public String getGift() {
+		return gift;
+	}
+	public void setGift(String gift) {
+		this.gift = gift;
 	}
 	@Column(name="VILLAGE")
 	public String getVillage() {
@@ -47,7 +56,7 @@ public class MrgModel {
 	}
 	@Override
 	public String toString() {
-		return "MrgModel [id=" + id + ", name=" + name + ", village=" + village + ", amount=" + amount + "]";
+		return "MrgModel [id=" + id + ", name=" + name + ", village=" + village + ", amount=" + amount + ",gift=" + gift + "]";
 	}
 	
 }
